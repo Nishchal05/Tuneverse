@@ -1,0 +1,91 @@
+body{
+    background-color: #30363A;
+    background-image: url("https://wallpapercave.com/wp/wp2758145.gif"); 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 80px;
+    background-color: black;
+    color: aliceblue;
+}
+nav ul li{
+    padding: 0 15px;
+}
+.container{
+    height: 77vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 27px auto;
+    width: 70%;
+    border-radius: 3%;
+    padding: 34px;
+    background-image: url("https://wallpapercave.com/wp/wp3413579.jpg");
+}
+
+.container .songlist{
+    height: 35px;
+    width: 90%;
+    border-radius: 34px;
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+}
+.collarge{
+    margin-top: 35px;
+}
+.songlist i{
+    margin: 27px 5px;
+}
+
+.songlist img{
+    border-radius: 34px;
+    width: 26px;
+    margin: 0 12px;
+}
+
+.bottom{
+    height: 125px;
+    position: sticky;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon i{
+    margin-top: 24px;
+    cursor: pointer;
+}
+#plays{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.gif{
+    position: absolute;
+    left: 9vw;
+     color: aliceblue;
+}
+.gif img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.songlist{
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    border: 4px solid black;
+}
+.songlist:hover{
+    border: 4px solid green;
+}
